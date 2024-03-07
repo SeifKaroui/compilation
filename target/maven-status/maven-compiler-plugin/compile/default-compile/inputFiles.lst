@@ -1,0 +1,13 @@
+/mnt/e/projects/java/compilation-project/src/main/java/com/compilation/Coloring.java
+/mnt/e/projects/java/compilation-project/src/main/java/com/compilation/lexer/TokenType.java
+/mnt/e/projects/java/compilation-project/src/main/java/com/compilation/parser/StackItem.java
+/mnt/e/projects/java/compilation-project/src/main/java/com/compilation/lexer/Token.java
+/mnt/e/projects/java/compilation-project/src/main/java/com/compilation/parser/Action.java
+/mnt/e/projects/java/compilation-project/src/main/java/com/compilation/App.java
+/mnt/e/projects/java/compilation-project/src/main/java/com/compilation/parser/Parser.java
+/mnt/e/projects/java/compilation-project/src/main/java/com/compilation/parser/SemanticError.java
+/mnt/e/projects/java/compilation-project/src/main/java/com/compilation/Grammar.java
+/mnt/e/projects/java/compilation-project/src/main/java/com/compilation/parser/SemanticType.java
+/mnt/e/projects/java/compilation-project/src/main/java/com/compilation/lexer/Lexer.java
+/mnt/e/projects/java/compilation-project/src/main/java/com/compilation/parser/SlrTable.java
+/mnt/e/projects/java/compilation-project/src/main/java/com/compilation/parser/SyntaxicError.java

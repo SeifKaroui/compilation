@@ -1,0 +1,41 @@
+PROGRAM -> DEC LI
+DEC -> var id : TYPE ; DEC
+DEC -> ''
+LI -> I LI
+LI -> ''
+I -> id := E ; 
+I -> id [ SIZE ] := E ; 
+I -> read ( id ) ; 
+I -> write ( E ) ; 
+I -> if E then LI endif 
+I -> if E then LI else LI endif 
+I -> while E do LI endwhile 
+E -> E OpArith F
+E -> E OpMod F
+E -> E OpRel F
+E -> E OpLogic F
+E -> F
+F -> ( E )
+F -> id [ SIZE ]
+F -> intLiteral 
+F -> floatLiteral
+F -> id
+TYPE -> TS
+TYPE -> array [ intLiteral ] of TS
+TS -> int
+TS -> float
+SIZE -> intLiteral
+SIZE -> id 
+OpArith -> + 
+OpArith -> - 
+OpArith -> * 
+OpArith -> / 
+OpMod -> %
+OpRel -> >= 
+OpRel -> > 
+OpRel -> <= 
+OpRel -> <  
+OpRel -> = 
+OpRel -> !=
+OpLogic -> ||
+OpLogic -> &&

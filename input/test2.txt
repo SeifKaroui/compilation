@@ -1,0 +1,10 @@
+var s: int  ; 
+var a: int;
+s = 0;
+while ( s < 100 ) do  
+  read(a);
+  sum = sum + a;
+endwhile
+print(s)
+
+

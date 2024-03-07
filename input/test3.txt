@@ -1,0 +1,4 @@
+var x : int ;
+var z : int ;
+var y : int ;
+read(xx);
